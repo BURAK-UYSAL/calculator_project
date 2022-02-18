@@ -5,7 +5,7 @@ body {
 .box {
     width: 300px;
     height: 401px;
-    background-color: rgb(87, 86, 86);
+    background-color: rgb(12 10 10 / 85%);
     text-align: center;
     position: relative;
     left: 475px;
@@ -36,17 +36,27 @@ body {
     position: relative;
     right: 5px;
     box-shadow: 5px 5px black;
-    border-radius: 5px;
+    border-radius: 20px;
 
 }
 
 .click2 {
-    background-color: red;
+    background-color: #1e29ff63;
     width: 32px;
     margin-left: 15px;
     height: 40px;
     color: black;
     position: relative;
     right: 5px;
+    box-shadow: 5px 5px black
+}
+.click3 {
+    background-color: #e7090980;
+    width: 45px;
+    margin-left: 2px;
+    height: 40px;
+    color: black;
+    position: relative;
+    right: -8px;
     box-shadow: 5px 5px black
 }
